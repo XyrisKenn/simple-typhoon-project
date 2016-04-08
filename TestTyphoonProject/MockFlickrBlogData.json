@@ -1,0 +1,19 @@
+{
+    "stat": "ok",
+    "blogs": {
+        "blog": [
+                 {
+                 "id"		: "73",
+                 "name"		: "Bloxus test",
+                 "needspassword"	: "0",
+                 "url"		: "http://remote.bloxus.com/"
+                 },
+                 {
+                 "id"		: "74",
+                 "name"		: "Manila Test",
+                 "needspassword"	: "1",
+                 "url"		: "http://flickrtest1.userland.com/"
+                 }
+                 ]
+    }
+}
