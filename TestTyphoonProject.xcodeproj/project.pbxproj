@@ -7,12 +7,24 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7CA0C1DA2E67DF681192FF3B /* Pods_TestTyphoonProject.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8C725A8032BA8D12FA5EAB16 /* Pods_TestTyphoonProject.framework */; };
 		BDD7CC351CB80107006189D9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDD7CC341CB80107006189D9 /* AppDelegate.swift */; };
-		BDD7CC371CB80107006189D9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDD7CC361CB80107006189D9 /* ViewController.swift */; };
-		BDD7CC3A1CB80107006189D9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BDD7CC381CB80107006189D9 /* Main.storyboard */; };
+		BDD7CC371CB80107006189D9 /* RootViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDD7CC361CB80107006189D9 /* RootViewController.swift */; };
 		BDD7CC3C1CB80107006189D9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BDD7CC3B1CB80107006189D9 /* Assets.xcassets */; };
 		BDD7CC3F1CB80107006189D9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BDD7CC3D1CB80107006189D9 /* LaunchScreen.storyboard */; };
 		BDD7CC4A1CB80107006189D9 /* TestTyphoonProjectTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDD7CC491CB80107006189D9 /* TestTyphoonProjectTests.swift */; };
+		BDD7CC561CB80466006189D9 /* ApplicationAssembly.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDD7CC551CB80466006189D9 /* ApplicationAssembly.swift */; };
+		BDD7CC5D1CB80F48006189D9 /* BlogListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDD7CC5C1CB80F48006189D9 /* BlogListViewController.swift */; };
+		BDD7CC5F1CB80FDB006189D9 /* BlogListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDD7CC5E1CB80FDB006189D9 /* BlogListView.swift */; };
+		BDD7CC631CB81B1B006189D9 /* MockFlickrBlogData.json in Resources */ = {isa = PBXBuildFile; fileRef = BDD7CC621CB81B1B006189D9 /* MockFlickrBlogData.json */; };
+		BDD7CC651CB81E5B006189D9 /* DataAssembly.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDD7CC641CB81E5B006189D9 /* DataAssembly.swift */; };
+		BDD7CC681CB81F05006189D9 /* BlogClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDD7CC671CB81F05006189D9 /* BlogClient.swift */; };
+		BDD7CC6A1CB81F99006189D9 /* BlogClientImpl.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDD7CC691CB81F99006189D9 /* BlogClientImpl.swift */; };
+		BDD7CC6D1CB82074006189D9 /* DataHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDD7CC6C1CB82074006189D9 /* DataHandler.swift */; };
+		BDD7CC701CB82759006189D9 /* BlogListCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDD7CC6E1CB82759006189D9 /* BlogListCollectionViewCell.swift */; };
+		BDD7CC711CB82759006189D9 /* BlogListCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = BDD7CC6F1CB82759006189D9 /* BlogListCollectionViewCell.xib */; };
+		BDD7CC731CB82B34006189D9 /* Configuration.plist in Resources */ = {isa = PBXBuildFile; fileRef = BDD7CC721CB82B34006189D9 /* Configuration.plist */; };
+		DDF7C09604D5F4C36BD3FE4C /* Pods_TestTyphoonProjectTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E226FCD7BA0E82D7A176B42C /* Pods_TestTyphoonProjectTests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -26,16 +38,33 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		150D1A838E1C2D44D844AC41 /* Pods-TestTyphoonProject.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TestTyphoonProject.release.xcconfig"; path = "Pods/Target Support Files/Pods-TestTyphoonProject/Pods-TestTyphoonProject.release.xcconfig"; sourceTree = "<group>"; };
+		726F777DB1929D3F26A8874F /* Pods-TestTyphoonProject.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TestTyphoonProject.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TestTyphoonProject/Pods-TestTyphoonProject.debug.xcconfig"; sourceTree = "<group>"; };
+		8C725A8032BA8D12FA5EAB16 /* Pods_TestTyphoonProject.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TestTyphoonProject.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A0B04D0674C92D3AEAB710FF /* Pods-TestTyphoonProjectTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TestTyphoonProjectTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-TestTyphoonProjectTests/Pods-TestTyphoonProjectTests.release.xcconfig"; sourceTree = "<group>"; };
+		A200FE5E4206405CB773A38A /* Pods-TestTyphoonProjectTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TestTyphoonProjectTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TestTyphoonProjectTests/Pods-TestTyphoonProjectTests.debug.xcconfig"; sourceTree = "<group>"; };
 		BDD7CC311CB80107006189D9 /* TestTyphoonProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TestTyphoonProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BDD7CC341CB80107006189D9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		BDD7CC361CB80107006189D9 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		BDD7CC391CB80107006189D9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		BDD7CC361CB80107006189D9 /* RootViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootViewController.swift; sourceTree = "<group>"; };
 		BDD7CC3B1CB80107006189D9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BDD7CC3E1CB80107006189D9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		BDD7CC401CB80107006189D9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		BDD7CC451CB80107006189D9 /* TestTyphoonProjectTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TestTyphoonProjectTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		BDD7CC491CB80107006189D9 /* TestTyphoonProjectTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestTyphoonProjectTests.swift; sourceTree = "<group>"; };
 		BDD7CC4B1CB80107006189D9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BDD7CC551CB80466006189D9 /* ApplicationAssembly.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ApplicationAssembly.swift; sourceTree = "<group>"; };
+		BDD7CC571CB8060D006189D9 /* TestTyphoonProject-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "TestTyphoonProject-Bridging-Header.h"; sourceTree = "<group>"; };
+		BDD7CC5C1CB80F48006189D9 /* BlogListViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BlogListViewController.swift; sourceTree = "<group>"; };
+		BDD7CC5E1CB80FDB006189D9 /* BlogListView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BlogListView.swift; sourceTree = "<group>"; };
+		BDD7CC621CB81B1B006189D9 /* MockFlickrBlogData.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = MockFlickrBlogData.json; sourceTree = "<group>"; };
+		BDD7CC641CB81E5B006189D9 /* DataAssembly.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DataAssembly.swift; sourceTree = "<group>"; };
+		BDD7CC671CB81F05006189D9 /* BlogClient.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BlogClient.swift; sourceTree = "<group>"; };
+		BDD7CC691CB81F99006189D9 /* BlogClientImpl.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BlogClientImpl.swift; sourceTree = "<group>"; };
+		BDD7CC6C1CB82074006189D9 /* DataHandler.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DataHandler.swift; sourceTree = "<group>"; };
+		BDD7CC6E1CB82759006189D9 /* BlogListCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BlogListCollectionViewCell.swift; sourceTree = "<group>"; };
+		BDD7CC6F1CB82759006189D9 /* BlogListCollectionViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = BlogListCollectionViewCell.xib; sourceTree = "<group>"; };
+		BDD7CC721CB82B34006189D9 /* Configuration.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Configuration.plist; sourceTree = "<group>"; };
+		E226FCD7BA0E82D7A176B42C /* Pods_TestTyphoonProjectTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TestTyphoonProjectTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -43,6 +72,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7CA0C1DA2E67DF681192FF3B /* Pods_TestTyphoonProject.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -50,18 +80,41 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DDF7C09604D5F4C36BD3FE4C /* Pods_TestTyphoonProjectTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		3A9CDB2A64C3A7D3364469E6 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8C725A8032BA8D12FA5EAB16 /* Pods_TestTyphoonProject.framework */,
+				E226FCD7BA0E82D7A176B42C /* Pods_TestTyphoonProjectTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		5FA09A2B7B77699E9788C2B4 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				726F777DB1929D3F26A8874F /* Pods-TestTyphoonProject.debug.xcconfig */,
+				150D1A838E1C2D44D844AC41 /* Pods-TestTyphoonProject.release.xcconfig */,
+				A200FE5E4206405CB773A38A /* Pods-TestTyphoonProjectTests.debug.xcconfig */,
+				A0B04D0674C92D3AEAB710FF /* Pods-TestTyphoonProjectTests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		BDD7CC281CB80107006189D9 = {
 			isa = PBXGroup;
 			children = (
 				BDD7CC331CB80107006189D9 /* TestTyphoonProject */,
 				BDD7CC481CB80107006189D9 /* TestTyphoonProjectTests */,
 				BDD7CC321CB80107006189D9 /* Products */,
+				5FA09A2B7B77699E9788C2B4 /* Pods */,
+				3A9CDB2A64C3A7D3364469E6 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -77,9 +130,15 @@
 		BDD7CC331CB80107006189D9 /* TestTyphoonProject */ = {
 			isa = PBXGroup;
 			children = (
+				BDD7CC571CB8060D006189D9 /* TestTyphoonProject-Bridging-Header.h */,
+				BDD7CC721CB82B34006189D9 /* Configuration.plist */,
+				BDD7CC6B1CB8204C006189D9 /* Helpers */,
+				BDD7CC661CB81EAE006189D9 /* Client */,
+				BDD7CC601CB81AEA006189D9 /* Data */,
+				BDD7CC541CB80400006189D9 /* Assembly */,
+				BDD7CC581CB80DAC006189D9 /* User Interface */,
 				BDD7CC341CB80107006189D9 /* AppDelegate.swift */,
-				BDD7CC361CB80107006189D9 /* ViewController.swift */,
-				BDD7CC381CB80107006189D9 /* Main.storyboard */,
+				BDD7CC361CB80107006189D9 /* RootViewController.swift */,
 				BDD7CC3B1CB80107006189D9 /* Assets.xcassets */,
 				BDD7CC3D1CB80107006189D9 /* LaunchScreen.storyboard */,
 				BDD7CC401CB80107006189D9 /* Info.plist */,
@@ -96,6 +155,84 @@
 			path = TestTyphoonProjectTests;
 			sourceTree = "<group>";
 		};
+		BDD7CC541CB80400006189D9 /* Assembly */ = {
+			isa = PBXGroup;
+			children = (
+				BDD7CC551CB80466006189D9 /* ApplicationAssembly.swift */,
+				BDD7CC641CB81E5B006189D9 /* DataAssembly.swift */,
+			);
+			name = Assembly;
+			path = ..;
+			sourceTree = "<group>";
+		};
+		BDD7CC581CB80DAC006189D9 /* User Interface */ = {
+			isa = PBXGroup;
+			children = (
+				BDD7CC591CB80DDA006189D9 /* Controllers */,
+			);
+			name = "User Interface";
+			sourceTree = "<group>";
+		};
+		BDD7CC591CB80DDA006189D9 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				BDD7CC5A1CB80DFF006189D9 /* Blog List */,
+			);
+			name = Controllers;
+			sourceTree = "<group>";
+		};
+		BDD7CC5A1CB80DFF006189D9 /* Blog List */ = {
+			isa = PBXGroup;
+			children = (
+				BDD7CC5C1CB80F48006189D9 /* BlogListViewController.swift */,
+				BDD7CC5B1CB80EEC006189D9 /* Views */,
+			);
+			name = "Blog List";
+			sourceTree = "<group>";
+		};
+		BDD7CC5B1CB80EEC006189D9 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				BDD7CC5E1CB80FDB006189D9 /* BlogListView.swift */,
+				BDD7CC6E1CB82759006189D9 /* BlogListCollectionViewCell.swift */,
+				BDD7CC6F1CB82759006189D9 /* BlogListCollectionViewCell.xib */,
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
+		BDD7CC601CB81AEA006189D9 /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				BDD7CC611CB81AF0006189D9 /* Mock Data */,
+			);
+			name = Data;
+			sourceTree = "<group>";
+		};
+		BDD7CC611CB81AF0006189D9 /* Mock Data */ = {
+			isa = PBXGroup;
+			children = (
+				BDD7CC621CB81B1B006189D9 /* MockFlickrBlogData.json */,
+			);
+			name = "Mock Data";
+			sourceTree = "<group>";
+		};
+		BDD7CC661CB81EAE006189D9 /* Client */ = {
+			isa = PBXGroup;
+			children = (
+				BDD7CC671CB81F05006189D9 /* BlogClient.swift */,
+				BDD7CC691CB81F99006189D9 /* BlogClientImpl.swift */,
+			);
+			name = Client;
+			sourceTree = "<group>";
+		};
+		BDD7CC6B1CB8204C006189D9 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				BDD7CC6C1CB82074006189D9 /* DataHandler.swift */,
+			);
+			name = Helpers;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -103,9 +240,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = BDD7CC4E1CB80107006189D9 /* Build configuration list for PBXNativeTarget "TestTyphoonProject" */;
 			buildPhases = (
+				7D2848D177B704FA254EFA6E /* Check Pods Manifest.lock */,
 				BDD7CC2D1CB80107006189D9 /* Sources */,
 				BDD7CC2E1CB80107006189D9 /* Frameworks */,
 				BDD7CC2F1CB80107006189D9 /* Resources */,
+				69D1F4937A5EC3ABED33692F /* Embed Pods Frameworks */,
+				C5660A620DF1812A247DA8D9 /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -120,9 +260,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = BDD7CC511CB80107006189D9 /* Build configuration list for PBXNativeTarget "TestTyphoonProjectTests" */;
 			buildPhases = (
+				F6C95A793FBD0F150F9462E2 /* Check Pods Manifest.lock */,
 				BDD7CC411CB80107006189D9 /* Sources */,
 				BDD7CC421CB80107006189D9 /* Frameworks */,
 				BDD7CC431CB80107006189D9 /* Resources */,
+				732997E0E873602C224A95FB /* Embed Pods Frameworks */,
+				E83CFF339FD5A5C3F2CE4A34 /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -178,8 +321,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				BDD7CC3F1CB80107006189D9 /* LaunchScreen.storyboard in Resources */,
+				BDD7CC731CB82B34006189D9 /* Configuration.plist in Resources */,
 				BDD7CC3C1CB80107006189D9 /* Assets.xcassets in Resources */,
-				BDD7CC3A1CB80107006189D9 /* Main.storyboard in Resources */,
+				BDD7CC711CB82759006189D9 /* BlogListCollectionViewCell.xib in Resources */,
+				BDD7CC631CB81B1B006189D9 /* MockFlickrBlogData.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -192,13 +337,114 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		69D1F4937A5EC3ABED33692F /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TestTyphoonProject/Pods-TestTyphoonProject-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		732997E0E873602C224A95FB /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TestTyphoonProjectTests/Pods-TestTyphoonProjectTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7D2848D177B704FA254EFA6E /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		C5660A620DF1812A247DA8D9 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TestTyphoonProject/Pods-TestTyphoonProject-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E83CFF339FD5A5C3F2CE4A34 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TestTyphoonProjectTests/Pods-TestTyphoonProjectTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F6C95A793FBD0F150F9462E2 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		BDD7CC2D1CB80107006189D9 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BDD7CC371CB80107006189D9 /* ViewController.swift in Sources */,
+				BDD7CC371CB80107006189D9 /* RootViewController.swift in Sources */,
+				BDD7CC561CB80466006189D9 /* ApplicationAssembly.swift in Sources */,
+				BDD7CC701CB82759006189D9 /* BlogListCollectionViewCell.swift in Sources */,
+				BDD7CC681CB81F05006189D9 /* BlogClient.swift in Sources */,
+				BDD7CC5D1CB80F48006189D9 /* BlogListViewController.swift in Sources */,
+				BDD7CC6D1CB82074006189D9 /* DataHandler.swift in Sources */,
+				BDD7CC6A1CB81F99006189D9 /* BlogClientImpl.swift in Sources */,
+				BDD7CC651CB81E5B006189D9 /* DataAssembly.swift in Sources */,
 				BDD7CC351CB80107006189D9 /* AppDelegate.swift in Sources */,
+				BDD7CC5F1CB80FDB006189D9 /* BlogListView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -221,14 +467,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		BDD7CC381CB80107006189D9 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				BDD7CC391CB80107006189D9 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		BDD7CC3D1CB80107006189D9 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -327,28 +565,33 @@
 		};
 		BDD7CC4F1CB80107006189D9 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 726F777DB1929D3F26A8874F /* Pods-TestTyphoonProject.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = TestTyphoonProject/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = xyrisapps.TestTyphoonProject;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "TestTyphoonProject/TestTyphoonProject-Bridging-Header.h";
 			};
 			name = Debug;
 		};
 		BDD7CC501CB80107006189D9 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 150D1A838E1C2D44D844AC41 /* Pods-TestTyphoonProject.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = TestTyphoonProject/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = xyrisapps.TestTyphoonProject;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "TestTyphoonProject/TestTyphoonProject-Bridging-Header.h";
 			};
 			name = Release;
 		};
 		BDD7CC521CB80107006189D9 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A200FE5E4206405CB773A38A /* Pods-TestTyphoonProjectTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				INFOPLIST_FILE = TestTyphoonProjectTests/Info.plist;
@@ -361,6 +604,7 @@
 		};
 		BDD7CC531CB80107006189D9 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A0B04D0674C92D3AEAB710FF /* Pods-TestTyphoonProjectTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				INFOPLIST_FILE = TestTyphoonProjectTests/Info.plist;
@@ -390,6 +634,7 @@
 				BDD7CC501CB80107006189D9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		BDD7CC511CB80107006189D9 /* Build configuration list for PBXNativeTarget "TestTyphoonProjectTests" */ = {
 			isa = XCConfigurationList;
@@ -398,6 +643,7 @@
 				BDD7CC531CB80107006189D9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
