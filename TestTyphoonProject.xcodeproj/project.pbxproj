@@ -13,17 +13,17 @@
 		BDD7CC3C1CB80107006189D9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BDD7CC3B1CB80107006189D9 /* Assets.xcassets */; };
 		BDD7CC3F1CB80107006189D9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BDD7CC3D1CB80107006189D9 /* LaunchScreen.storyboard */; };
 		BDD7CC4A1CB80107006189D9 /* TestTyphoonProjectTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDD7CC491CB80107006189D9 /* TestTyphoonProjectTests.swift */; };
-		BDD7CC561CB80466006189D9 /* ApplicationAssembly.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDD7CC551CB80466006189D9 /* ApplicationAssembly.swift */; };
 		BDD7CC5D1CB80F48006189D9 /* BlogListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDD7CC5C1CB80F48006189D9 /* BlogListViewController.swift */; };
 		BDD7CC5F1CB80FDB006189D9 /* BlogListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDD7CC5E1CB80FDB006189D9 /* BlogListView.swift */; };
 		BDD7CC631CB81B1B006189D9 /* MockFlickrBlogData.json in Resources */ = {isa = PBXBuildFile; fileRef = BDD7CC621CB81B1B006189D9 /* MockFlickrBlogData.json */; };
-		BDD7CC651CB81E5B006189D9 /* DataAssembly.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDD7CC641CB81E5B006189D9 /* DataAssembly.swift */; };
 		BDD7CC681CB81F05006189D9 /* BlogClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDD7CC671CB81F05006189D9 /* BlogClient.swift */; };
 		BDD7CC6A1CB81F99006189D9 /* BlogClientImpl.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDD7CC691CB81F99006189D9 /* BlogClientImpl.swift */; };
 		BDD7CC6D1CB82074006189D9 /* DataHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDD7CC6C1CB82074006189D9 /* DataHandler.swift */; };
 		BDD7CC701CB82759006189D9 /* BlogListCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDD7CC6E1CB82759006189D9 /* BlogListCollectionViewCell.swift */; };
 		BDD7CC711CB82759006189D9 /* BlogListCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = BDD7CC6F1CB82759006189D9 /* BlogListCollectionViewCell.xib */; };
 		BDD7CC731CB82B34006189D9 /* Configuration.plist in Resources */ = {isa = PBXBuildFile; fileRef = BDD7CC721CB82B34006189D9 /* Configuration.plist */; };
+		BDEF58BB1CB83987005AB7CB /* ApplicationAssembly.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDEF58B91CB83987005AB7CB /* ApplicationAssembly.swift */; };
+		BDEF58BC1CB83987005AB7CB /* DataAssembly.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDEF58BA1CB83987005AB7CB /* DataAssembly.swift */; };
 		DDF7C09604D5F4C36BD3FE4C /* Pods_TestTyphoonProjectTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E226FCD7BA0E82D7A176B42C /* Pods_TestTyphoonProjectTests.framework */; };
 /* End PBXBuildFile section */
 
@@ -52,18 +52,18 @@
 		BDD7CC451CB80107006189D9 /* TestTyphoonProjectTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TestTyphoonProjectTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		BDD7CC491CB80107006189D9 /* TestTyphoonProjectTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestTyphoonProjectTests.swift; sourceTree = "<group>"; };
 		BDD7CC4B1CB80107006189D9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		BDD7CC551CB80466006189D9 /* ApplicationAssembly.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ApplicationAssembly.swift; sourceTree = "<group>"; };
 		BDD7CC571CB8060D006189D9 /* TestTyphoonProject-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "TestTyphoonProject-Bridging-Header.h"; sourceTree = "<group>"; };
 		BDD7CC5C1CB80F48006189D9 /* BlogListViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BlogListViewController.swift; sourceTree = "<group>"; };
 		BDD7CC5E1CB80FDB006189D9 /* BlogListView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BlogListView.swift; sourceTree = "<group>"; };
 		BDD7CC621CB81B1B006189D9 /* MockFlickrBlogData.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = MockFlickrBlogData.json; sourceTree = "<group>"; };
-		BDD7CC641CB81E5B006189D9 /* DataAssembly.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DataAssembly.swift; sourceTree = "<group>"; };
 		BDD7CC671CB81F05006189D9 /* BlogClient.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BlogClient.swift; sourceTree = "<group>"; };
 		BDD7CC691CB81F99006189D9 /* BlogClientImpl.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BlogClientImpl.swift; sourceTree = "<group>"; };
 		BDD7CC6C1CB82074006189D9 /* DataHandler.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DataHandler.swift; sourceTree = "<group>"; };
 		BDD7CC6E1CB82759006189D9 /* BlogListCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BlogListCollectionViewCell.swift; sourceTree = "<group>"; };
 		BDD7CC6F1CB82759006189D9 /* BlogListCollectionViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = BlogListCollectionViewCell.xib; sourceTree = "<group>"; };
 		BDD7CC721CB82B34006189D9 /* Configuration.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Configuration.plist; sourceTree = "<group>"; };
+		BDEF58B91CB83987005AB7CB /* ApplicationAssembly.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ApplicationAssembly.swift; path = TestTyphoonProject/ApplicationAssembly.swift; sourceTree = "<group>"; };
+		BDEF58BA1CB83987005AB7CB /* DataAssembly.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = DataAssembly.swift; path = TestTyphoonProject/DataAssembly.swift; sourceTree = "<group>"; };
 		E226FCD7BA0E82D7A176B42C /* Pods_TestTyphoonProjectTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TestTyphoonProjectTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -158,8 +158,8 @@
 		BDD7CC541CB80400006189D9 /* Assembly */ = {
 			isa = PBXGroup;
 			children = (
-				BDD7CC551CB80466006189D9 /* ApplicationAssembly.swift */,
-				BDD7CC641CB81E5B006189D9 /* DataAssembly.swift */,
+				BDEF58B91CB83987005AB7CB /* ApplicationAssembly.swift */,
+				BDEF58BA1CB83987005AB7CB /* DataAssembly.swift */,
 			);
 			name = Assembly;
 			path = ..;
@@ -436,15 +436,15 @@
 			buildActionMask = 2147483647;
 			files = (
 				BDD7CC371CB80107006189D9 /* RootViewController.swift in Sources */,
-				BDD7CC561CB80466006189D9 /* ApplicationAssembly.swift in Sources */,
 				BDD7CC701CB82759006189D9 /* BlogListCollectionViewCell.swift in Sources */,
 				BDD7CC681CB81F05006189D9 /* BlogClient.swift in Sources */,
 				BDD7CC5D1CB80F48006189D9 /* BlogListViewController.swift in Sources */,
 				BDD7CC6D1CB82074006189D9 /* DataHandler.swift in Sources */,
 				BDD7CC6A1CB81F99006189D9 /* BlogClientImpl.swift in Sources */,
-				BDD7CC651CB81E5B006189D9 /* DataAssembly.swift in Sources */,
 				BDD7CC351CB80107006189D9 /* AppDelegate.swift in Sources */,
+				BDEF58BB1CB83987005AB7CB /* ApplicationAssembly.swift in Sources */,
 				BDD7CC5F1CB80FDB006189D9 /* BlogListView.swift in Sources */,
+				BDEF58BC1CB83987005AB7CB /* DataAssembly.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
